@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="17.637" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-02-27T22:15:52" tests="0" file="cypress\integration\automation-test-store\contact-us.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Test Contact Us form via Automation Test Store" timestamp="2023-02-27T22:15:52" tests="1" time="17.586" failures="1">
+    <testcase name="Test Contact Us form via Automation Test Store Should be able to submit a successful submission via contact us form" time="0.000" classname="Should be able to submit a successful submission via contact us form">
+      <failure message="Timed out retrying: Expected to find element: `a[href$=&apos;contact&apos;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find element: `a[href$='contact']`, but never found it.
+    at ensureExistence (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:137673:32)
+    at Object.ensureElExistence (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:137691:12)
+    at ensureExistence (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:127867:23)
+    at onFailFn (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:127905:9)
+    at tryCatcher (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:9065:23)
+    at Promise._settlePromiseFromHandler (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:7000:31)
+    at Promise._settlePromise (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:7057:18)
+    at Promise._settlePromise0 (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:7102:10)
+    at Promise._settlePromises (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:7178:18)
+    at _drainQueueStep (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:3772:12)
+    at _drainQueue (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:3765:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:3781:5)
+    at Async.drainQueues (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:3651:14)
+
+      + expected - actual
+
+]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

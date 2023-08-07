@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="21.507" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-02-27T22:14:16" tests="0" file="cypress\integration\automation-test-store\add_Multiple-Items-to -items.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Add multiple items to basket" timestamp="2023-02-27T22:14:16" tests="1" time="21.316" failures="1">
+    <testcase name="Add multiple items to basket &quot;before each&quot; hook for &quot;Add specific items to basket&quot;" time="0.000" classname="&quot;before each&quot; hook for &quot;Add specific items to basket&quot;">
+      <failure message="Timed out retrying: Expected to find element: `a[href*=&apos;product/category&amp;path=&apos;]`, but never found it.
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Add multiple items to basket`" type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find element: `a[href*='product/category&path=']`, but never found it.
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Add multiple items to basket`
+    at ensureExistence (https://automationteststore.com/__cypress/runner/cypress_runner.js:137673:32)
+    at Object.ensureElExistence (https://automationteststore.com/__cypress/runner/cypress_runner.js:137691:12)
+    at ensureExistence (https://automationteststore.com/__cypress/runner/cypress_runner.js:127867:23)
+    at onFailFn (https://automationteststore.com/__cypress/runner/cypress_runner.js:127905:9)
+    at tryCatcher (https://automationteststore.com/__cypress/runner/cypress_runner.js:9065:23)
+    at Promise._settlePromiseFromHandler (https://automationteststore.com/__cypress/runner/cypress_runner.js:7000:31)
+    at Promise._settlePromise (https://automationteststore.com/__cypress/runner/cypress_runner.js:7057:18)
+    at Promise._settlePromise0 (https://automationteststore.com/__cypress/runner/cypress_runner.js:7102:10)
+    at Promise._settlePromises (https://automationteststore.com/__cypress/runner/cypress_runner.js:7178:18)
+    at _drainQueueStep (https://automationteststore.com/__cypress/runner/cypress_runner.js:3772:12)
+    at _drainQueue (https://automationteststore.com/__cypress/runner/cypress_runner.js:3765:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://automationteststore.com/__cypress/runner/cypress_runner.js:3781:5)
+    at Async.drainQueues (https://automationteststore.com/__cypress/runner/cypress_runner.js:3651:14)
+
+      + expected - actual
+
+]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
